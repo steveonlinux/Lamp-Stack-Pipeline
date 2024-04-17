@@ -7,4 +7,8 @@ This repo contains a pipeline that deploys a LAMP stack in the form of a Docker 
 * Dockerhub
 * Ansible
 
-To deploy the container run the Ansible playbook with `insert command`. The playbook assumes SystemD is being used and that the package manager is either apt, DNF, or pacman. The site will be at http://localhost:8080. 
+To deploy the container run the Ansible playbook with:
+```bash 
+ansible-playbook playbook.yml
+```
+The playbook assumes SystemD is being used and that the package manager is either apt, DNF, or pacman. The site will be at http://localhost:8080. 
