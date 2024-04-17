@@ -1,4 +1,4 @@
-# Lamp Stack Pipeline 🛋️
+# LAMP Stack Pipeline 🛋️
 
 This repo contains a pipeline that deploys a LAMP stack in the form of a Docker container named "lamp". The pipeline has the following flow:
 
