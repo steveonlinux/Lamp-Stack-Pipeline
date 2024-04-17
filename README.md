@@ -26,6 +26,6 @@ To deploy the container run the Ansible playbook with:
 ```bash 
 ansible-playbook playbook.yml
 ```
-Or pull and ru ndirectly from Dockerhub at https://hub.docker.com/r/steveonlinux/lamp.
+Or pull and run directly from Dockerhub at https://hub.docker.com/r/steveonlinux/lamp.
 
 The playbook assumes SystemD is being used and that the package manager is either apt, DNF, or pacman. The site will be at http://localhost:8080. 
